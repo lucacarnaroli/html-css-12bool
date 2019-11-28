@@ -1,0 +1,8 @@
+.red {
+  background-color: rgba(235, 83, 83, 0.73)
+
+}
+[class*="col-"] {
+  text-align: center;
+  line-height: 300px;
+}

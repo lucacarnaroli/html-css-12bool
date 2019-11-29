@@ -5,7 +5,6 @@
 }
 .debug {
   background-color: pink;
-
 }
 .debug .conteiner {
   height: 300px;
@@ -13,21 +12,19 @@
 .conteiner {
   max-width: 1170px;
   margin: 0 auto;
-  border: 1px solid black;
-  z-index: 2;
+  border:1px solid black;
 }
 .conteiner:after {
   content: '';
   display: table;
   clear: both;
 }
-
 [class*="col-"] {
   float:left;
 }
 .debug [class*="col-"] {
   border: 1px solid black;
-  height: 300px;
+  height: 100%;
 }
 /* colonne */
 .col-1 {
